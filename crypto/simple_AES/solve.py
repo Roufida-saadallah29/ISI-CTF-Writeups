@@ -16,3 +16,4 @@ for i in range(256):
         flag = cbc.decrypt(ct)
         if b"ISICTF{" in flag:
             print(flag)
+            break
