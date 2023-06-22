@@ -3,7 +3,7 @@ def read_bytes_from_file(file_path):
         bytes_data = file.read()
     return bytes_data
 
-# In this challenge i used xxd command to show which parts is the file we have 6 parts
+# In this challenge, I utilized the xxd command to identify the specific sections of the file, which revealed a total of 6 parts
 
 MagicNumber = read_bytes_from_file('X')
 IHDR = read_bytes_from_file('N')
