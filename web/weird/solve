@@ -1,0 +1,7 @@
+in payload of body request (POST)
+we put:
+query=0e215962017
+because its md5 hash begin with 0e2 and this is the vulnerability in php 
+
+
+
