@@ -11,9 +11,9 @@ IDATX = read_bytes_from_file('Y')
 IDAT3 = read_bytes_from_file('3')
 IDATC = read_bytes_from_file('C')
 IEND = read_bytes_from_file('0')
-bytesFIN=MagicNumber+IHDR+IDATX+IDAT3+IDATC+IEND
+finalDATA=MagicNumber+IHDR+IDATX+IDAT3+IDATC+IEND
 
-file_path = 'flag.png'  # Replace with the desired file path
+file_path = 'flag.png'  
 
 with open(file_path, 'wb') as file:
-    file.write(bytesFIN)
+    file.write(finalDATA)
